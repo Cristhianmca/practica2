@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.wrap {
+    width: 80rem;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    
+    align-items: cent;
+}
+
+.logo_1 {
+    font-size: 30px;
+    color: #87119A;
+    
+}
+.Nosotros { 
+    display: flex;
+    font-size: 18px;
+    color: #87119A;
+}
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+
+    background-color: #9ECEFA;
+    
+}
+ul {
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center; 
+    list-style: none;   
+}
+li {
+    padding: 40px;
+}
+.title_nosotros {
+    width: 160px;
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+h2 {
+    
+    display: flex;
+    height: 30px;
+    
+    padding: 10px;
+    padding-top: 10px;
+    
+    color: #87119A;
+    padding-top: 20px;
+    
+}
+.imagenes {
+    display: flex;
+    
+    padding-top: 10px;
+    justify-content: space-around;
+}
+p {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.imagenes_centradas {
+    
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+.imagen_sola {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
